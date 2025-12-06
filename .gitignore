@@ -1,0 +1,10 @@
+workspace/
+!workspace/.gitkeep
+models/embeddings/*
+!models/embeddings/.gitkeep
+__pycache__/
+*.pyc
+.venv/
+.ruff_cache/
+.idea/
+.vscode/
