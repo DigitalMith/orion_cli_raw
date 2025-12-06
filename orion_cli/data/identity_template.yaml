@@ -1,0 +1,5 @@
+# Placeholder identity template for Orion CLI
+identity:
+  version: 0.1
+  persona_ref: "orion_cli/data/persona_template.yaml"
+  notes: "Identity scaffolding will be defined in future iterations."

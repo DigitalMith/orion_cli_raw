@@ -1,0 +1,19 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "orion_cli"
+version = "0.1.0"
+description = "Orion CLI for managing cognitive architecture workflows"
+authors = [{ name = "Orion Team" }]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "typer>=0.9.0",
+    "pydantic>=2.6",
+    "pyyaml>=6.0",
+]
+
+[project.scripts]
+orion-cli = "orion_cli.cli:app"

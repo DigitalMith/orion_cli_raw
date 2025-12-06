@@ -1,0 +1,5 @@
+# Default configuration for Orion CLI
+workspace_dir: workspace
+embeddings_dir: models/embeddings
+persona_template: orion_cli/data/persona_template.yaml
+identity_template: orion_cli/data/identity_template.yaml
